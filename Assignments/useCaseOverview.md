@@ -10,6 +10,14 @@
 
 1. System Description
 1. Use Case Diagram
-1. Description of Actors
-1. High-Level Use Cases
-1. References
+![model](https://github.com/carl93/OOD-PA1443-poca16/blob/master/Assignments/model.jpeg "Diagram")
+
+1. Detailed Use Cases
+
+| n | Use Case | Description |
+| - |:-------------:| ------:|
+| 1 | Fight NPC | _The Player has encountered an npc and chosen to do battle._ |
+| 2 | Ignore encounter | _The Player has encountered an item,npc or another player but chosen to ignore said encounter._ |
+| 3 | Use item | _The Player uses an item from their inventory._ |
+| 4 | Combine items | _The Player attempts to combines two items from their inventory._ |
+| 5 | Trade with Player | _The Player has encountered another Player and requested a trade of items._ |
