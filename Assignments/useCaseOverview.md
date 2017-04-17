@@ -9,6 +9,7 @@
 | Pontus Carlsson  | 9308181636 | 100% |100% |
 
 1. System Description
+A version of the game 'NetHack' that uses posts from Twitter to mutate the games stage generation process.
 1. Use Case Diagram
 ![model](https://github.com/carl93/OOD-PA1443-poca16/blob/master/Assignments/model.jpeg "Diagram")
 
