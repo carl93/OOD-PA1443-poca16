@@ -3,7 +3,7 @@
     1. Title: Use Case Overview
     1. Sub-title: "Assignment int the course PA1443 Introduction to Software Design and Architecture"
     1. Authors and Author Contribution
-1.
+
 | Author Name   | Social Security Number| Thinking  |Writing  |
 | ------------- |:-------------:| -----:|-----:|
 | Pontus Carlsson  | 9308181636 | 100% |100% |
