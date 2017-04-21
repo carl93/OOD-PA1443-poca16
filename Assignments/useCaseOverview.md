@@ -21,7 +21,7 @@ A version of the game 'NetHack' featuring multiplayer gameplay and a modernized 
 | 1 | Player | Player setup | _The Player entered setup screen via the main menu and is presented with various customization options._ |
 | 2 | Player | Create game | _The Player attempts to create and host a new game._ |
 | 3 | Player | Join game | _The Player attemts to join an existing game._ |
-| 4 | Map builder | Generate map | _As a new game is being created a new map will be generated. A map can be either random generated or generated using the twitter API. In this case a random generated map will be created. _ |
+| 4 | Map builder | Generate map | _As a new game is being created a new map will be generated. A map can be either random generated or generated using the twitter API. In this case a random generated map will be created._ |
 | 5 | Twitter API | Generate map | _As a new game is being created a new map will be generated. In this case a map generated using the Twitter API will be created._ |
 | 6 | Map fetcher | Get exsisting map | _As the player attempts to join a existing game the Map fetcher will attempt to load the corresponding map._ |
 | 7 | Player | Move | _The Player has changed position within the map and become eligable for a random encounter._ |
