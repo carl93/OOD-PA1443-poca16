@@ -13,7 +13,15 @@
 A version of the game 'NetHack' featuring multiplayer gameplay and a modernized navigation system. The game focuses on exploration and will incoporate Twitter to mutate the games stage generation process based on the content of tweets resulting in a constantly changing and  dynamic experience.
 1. Use Case Diagram
 ![model](https://github.com/carl93/OOD-PA1443-poca16/blob/master/Assignments/model-rev.jpeg "Diagram")
-
+1. Actors
+### Player
+The User.
+### Map builder
+Handels the random map generator.
+### Map fetcher
+Handels map fetching when joining existing games.
+### Twitter API
+Handels communications via the Twitter API to get the data used to generate maps.
 1. Detailed Use Cases
 
 | # | Actor | Use Case | Description |
