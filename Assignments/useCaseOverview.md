@@ -38,7 +38,7 @@ Handels communications via the Twitter API to get the data used to generate maps
 | 10 | Player | Examine item | _The Player examines an item from their inventory and is presented with a short description of said item._ 
 | 11 | Player | Use item | _The Player uses an item from their inventory._ |
 | 12 | Player | Combine items | _The Player attempts to combines two items from their inventory._ |
-| 13 | Player | Drop items | _The Player drops an item from their inventory._ |
+| 13 | Player | Drop item | _The Player drops an item from their inventory._ |
 | 14 | Player | Encounter NPC | _When an NPC is encountered the player may choose how to interact with said NPC._ |
 | 15 | Player | Debate NPC | _The Player has encountered an npc and chosen to start a debate._ |
 | 16 | Player | Fight NPC | _The Player has encountered an npc and chosen to do battle._ |
