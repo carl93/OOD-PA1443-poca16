@@ -1,7 +1,7 @@
 # Detailed Use Cases (Iteration 1) for System _TwitterNetHack_
 1. Title Page
-    1. Title: Use Case Overview
-    1. Sub-title: "Assignment int the course PA1443 Introduction to Software Design and Architecture"
+    1. Title: Detailed Use Cases (Iteration 1)
+    1. Sub-title: "Assignment in the course PA1443 Introduction to Software Design and Architecture"
     1. 2017-04-23
     1. Authors and Author Contribution
 
@@ -41,7 +41,7 @@ Extension:
 2a:
 1. The Player recives feedback on an invalid move.
 
-__Encounter, Item__
+___Encounter, Item___
 
 Preconditions: The player has preformed a valid move.
 
@@ -79,8 +79,13 @@ Main Success Scenario:
 Extension:
 
 2a:
-1. The item's prerequsitions are not met. For example: A health potion can not be used if the player is at full health.
+1. The item's Special Requirements are not met.
 1. The Player is informed that the item can not be used.
+
+Special Requirements:
+Item specific prerequsitions.
+Ex: A health potion can not be used if the player is at full health.
+Ex: Key can only be used at doors.
 
 ___Drop item___
 
