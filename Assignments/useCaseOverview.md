@@ -17,7 +17,7 @@ A version of the game 'NetHack' featuring multiplayer gameplay and a modernized 
 ### Player
 The User.
 ### Map builder
-Handels the random map generator.
+Handles the random map generator.
 ### Map fetcher
 Handels map fetching when joining existing games.
 ### Twitter API
