@@ -14,11 +14,11 @@ A version of the game 'NetHack' featuring multiplayer gameplay and a modernized 
 
 1. Class and Package Diagram
 
-##Packages
-###Game
+## Packages
+### Game
 Parent package. Classes loose within parent package have to to with initialization and map building.
-###Player
+### Player
 Contains classes that make up the Player construct,
-###Encounters
+### Encounters
 Contains classes that make up Encounters.
 ![model](https://github.com/carl93/OOD-PA1443-poca16/blob/master/Assignments/OOP/ClassDiagram1.png "Diagram")
