@@ -80,7 +80,7 @@ A version of the game 'NetHack' featuring multiplayer gameplay and a modernized 
 
 1. Interaction diagrams
     1. Interaction Diagram for Use Case Create game
-        ![model](https://github.com/carl93/OOD-PA1443-poca16/blob/master/Assignments/OOP/ID/newGame().png "ID_create")
+        ![model](https://github.com/carl93/OOD-PA1443-poca16/blob/master/Assignments/OOP/ID/newGame().png?raw=true "ID_create")
 
     1. Interaction Diagram for Use Case Move
         ![model](https://github.com/carl93/OOD-PA1443-poca16/blob/master/Assignments/OOP/ID/move().png "ID_move")
