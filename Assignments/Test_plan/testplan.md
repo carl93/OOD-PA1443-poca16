@@ -9,10 +9,22 @@
 | ------------- |:-------------:| -----:|-----:|
 | Pontus Carlsson  | 9308181636 | 100% |100% |
 
-1. System Description
+2. System Description
 
 A version of the game 'NetHack' featuring multiplayer gameplay and a modernized navigation system. The game focuses on exploration and will incoporate Twitter to mutate the games stage generation process based on the content of tweets resulting in a constantly changing and  dynamic experience.
-1. System test suite
+
+3. Test Strategy
+
+As this document only cover the first iteration of a relatively small system no automated testing will be performed.
+Given the compact scope of the system and how limited the user's inputs are at least in the systems first iteration manual testing becomes manageable and  tests can be written to cover the system as a whole without coming across as unwieldy.
+The developers will manually perform a set of tests covering the features of the systems first iteration. The result of each test will be evaluated against its expected outcome and deemed as a pass of a fail. If a test is a fail a retest will be performed after alteration to the code has been made.
+
+The test process can be visualized as such.
+![Test process model][tfd-model]
+
+[tfd-model]: http://www.agiledata.org/images/tddSteps.jpg "Test Process Model"
+
+4. System tests
 
 ##  Move
   ### Preconditions
@@ -134,7 +146,3 @@ A version of the game 'NetHack' featuring multiplayer gameplay and a modernized 
 |---------|:---------:|:----------------:|:--------------:|
 | Verify that output corresponds with the items in the players inventory. | Initiate event Show inventory. | All items presently in the players inventory are presented. | ... |
 | Verify that output is properly updated after an item has been dropped. | Initiate event Show inventory after an item has been dropped. | All items presently in the players inventory are presented. | ... |
-
-1. Test Strategy
-
-1. System Tests
