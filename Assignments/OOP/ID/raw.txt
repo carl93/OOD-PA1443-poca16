@@ -1,0 +1,76 @@
+title newGame()
+":Player" -> ":System" : newGame()
+":System" -> ":mapBuilder" : generateMap()
+":mapBuilder" --> ":System" : return map
+":System" --> ":Player" : return map
+
+title move()
+":Player" -> ":System" : move(currentLocation)
+":System" -> ":Map" : getNewLocation(currentLocation)
+":Map" -> ":Map" : check(newLocation)
+alt Encounter is true
+":Map" --> ":Player" : return Encounter
+else
+":Map" --> ":Player" : return newLocation
+end
+
+title dropItem()
+":Player" -> ":System" : dropItem(item)
+":System" -> ":Inventory" : dropItem(item)
+alt size < 1
+":Inventory" --> ":Player" : <"No items">
+else size > 0
+loop for each item in Inventory
+":Inventory" -> ":Inventory" : search(item)
+end
+alt match
+":Inventory" -> ":Inventory" : remove(item)
+":Inventory" --> ":Player" : <"Item removed">
+else no match
+":Inventory" --> ":Player" : <"No match">
+end
+end
+
+title useItem()
+":Player" -> ":System" : useItem(item)
+":System" -> ":Inventory" : useItem(item)
+alt size < 1
+":Inventory" --> ":Player" : <"No items">
+else size > 0
+loop for each item in Inventory
+":Inventory" -> ":Inventory" : search(item)
+end
+alt match
+":Inventory" -> ":Inventory" : reqCheck(item)
+alt requirments met
+":Inventory" -> ":Inventory" : use(item)
+":Inventory" --> ":Player" : <"Item used">
+else requirments NOT met
+":Inventory" --> ":Player" : <"Item cannot be used">
+end
+else no match
+":Inventory" --> ":Player" : <"No match">
+end
+end
+
+title showInventory()
+":Player" -> ":System" : showInventory()
+":System" -> ":Inventory" : showInventory()
+loop for each item in Inventory
+":Inventory" --> ":Player" : Print item
+end
+
+title fight()
+":Player" -> ":System" : fight(Player)
+":System" -> ":NPC" : fight(Player)
+":NPC" -> ":NPC" : fight(Player)
+alt Player.getStats() > stats
+":NPC" --> ":Player" : win
+":Player" -> ":Player" : reward
+else
+":NPC" --> ":Player" : lose
+":Player" -> ":Player" : penalty
+
+title ignoreEncounter()
+":Player" -> ":Encounter" : ignore()
+":Encounter" --> ":Player" : <Encounter was ignored>

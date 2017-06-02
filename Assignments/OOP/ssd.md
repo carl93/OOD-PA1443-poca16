@@ -1,6 +1,6 @@
 #  System Sequence Diagrams for System _TwitterNetHack_
 
-![model](https://github.com/carl93/OOD-PA1443-poca16/blob/master/Assignments/OOP/SSD/Create_game.png "Diagram")
+![model](\Users\Pontus\Documents\GitHub\OOD-PA1443-poca16\Assignments\OOP\SSD\Create_game.png "Diagram")
 
 ![model](https://github.com/carl93/OOD-PA1443-poca16/blob/master/Assignments/OOP/SSD/Drop_item.png "Diagram")
 
