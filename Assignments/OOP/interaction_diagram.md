@@ -80,22 +80,22 @@ A version of the game 'NetHack' featuring multiplayer gameplay and a modernized 
 
 1. Interaction diagrams
     1. Interaction Diagram for Use Case Create game
-        ![model](https://github.com/carl93/OOD-PA1443-poca16/blob/master/Assignments/OOP/ID/newGame().png?raw=true "ID_create")
+        ![model](https://github.com/carl93/OOD-PA1443-poca16/blob/master/Assignments/OOP/ID/newGame.png "ID_create")
 
     1. Interaction Diagram for Use Case Move
-        ![model](https://github.com/carl93/OOD-PA1443-poca16/blob/master/Assignments/OOP/ID/move().png "ID_move")
+        ![model](https://github.com/carl93/OOD-PA1443-poca16/blob/master/Assignments/OOP/ID/move.png "ID_move")
     
     1. Interaction Diagram for Use Case Drop item
-        ![model](https://github.com/carl93/OOD-PA1443-poca16/blob/master/Assignments/OOP/ID/dropItem().png "ID_drop")
+        ![model](https://github.com/carl93/OOD-PA1443-poca16/blob/master/Assignments/OOP/ID/dropItem.png "ID_drop")
     
     1. Interaction Diagram for Use Case Use item
-        ![model](https://github.com/carl93/OOD-PA1443-poca16/blob/master/Assignments/OOP/ID/useItem().png "ID_use")
+        ![model](https://github.com/carl93/OOD-PA1443-poca16/blob/master/Assignments/OOP/ID/useItem.png "ID_use")
     
     1. Interaction Diagram for Use Case Show inventory
-        ![model](https://github.com/carl93/OOD-PA1443-poca16/blob/master/Assignments/OOP/ID/showInventory().png "ID_show")
+        ![model](https://github.com/carl93/OOD-PA1443-poca16/blob/master/Assignments/OOP/ID/showInventory.png "ID_show")
     
     1. Interaction Diagram for Use Case Fight, NPC
-        ![model](https://github.com/carl93/OOD-PA1443-poca16/blob/master/Assignments/OOP/ID/fight().png "ID_fight")
+        ![model](https://github.com/carl93/OOD-PA1443-poca16/blob/master/Assignments/OOP/ID/fight.png "ID_fight")
 
     1. Interaction Diagram for Use Case Ignore Encounter
-        ![model](https://github.com/carl93/OOD-PA1443-poca16/blob/master/Assignments/OOP/ID/ignoreEncounter().png "ID_ignore")
+        ![model](https://github.com/carl93/OOD-PA1443-poca16/blob/master/Assignments/OOP/ID/ignoreEncounter.png "ID_ignore")
